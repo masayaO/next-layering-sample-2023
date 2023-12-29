@@ -1,3 +1,9 @@
+import PageTitle from "@/shared/components/PageTitle";
+
 export default function Page() {
-  return <p>Account</p>;
+  return (
+    <>
+      <PageTitle title={"アカウント設定"} />
+    </>
+  );
 }
