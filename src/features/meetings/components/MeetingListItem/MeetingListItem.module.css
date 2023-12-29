@@ -1,0 +1,8 @@
+.module {
+    width: fit-content;
+}
+
+.item {
+    display: flex;
+    gap: 12px;
+}

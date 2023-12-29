@@ -23,7 +23,17 @@ export const useApiAccessMeeting = () => {
     ];
   };
 
+  const fetchMeetingDetail = async (id: number): Promise<Meeting> => {
+    await delay(1000);
+    return {
+      id,
+      title: `Meeting ${id}`,
+      description: `Meeting ${id} description`,
+    };
+  };
+
   return {
     fetchMeetingList,
+    fetchMeetingDetail,
   };
 };
