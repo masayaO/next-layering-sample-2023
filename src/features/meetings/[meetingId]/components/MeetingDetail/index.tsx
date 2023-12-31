@@ -1,4 +1,4 @@
-import { Meeting } from "@/shared/types/meetings/types";
+import { Meeting } from "@/types/meetings/types";
 
 type Props = {
   meeting: Meeting;

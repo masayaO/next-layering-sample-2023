@@ -1,5 +1,5 @@
-import { Meeting } from "@/shared/types/meetings/types";
-import { delay } from "@/shared/utils/delay";
+import { Meeting } from "@/types/meetings/types";
+import { delay } from "@/utils/delay";
 
 export const useApiAccessMeeting = () => {
   const fetchMeetingList = async (): Promise<Meeting[]> => {

@@ -1,5 +1,5 @@
-import PageTitle from "@/shared/components/PageTitle";
-import { useApiAccessMeeting } from "@/shared/hooks/apiAccess/meetings/useApiAccessMeeting";
+import PageTitle from "@/components/PageTitle";
+import { useApiAccessMeeting } from "@/apiAccess/meetings/useApiAccessMeeting";
 import MeetingDetail from "@/features/meetings/[meetingId]/components/MeetingDetail";
 
 export default async function Page({

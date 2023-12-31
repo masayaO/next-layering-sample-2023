@@ -1,4 +1,4 @@
-import PageTitle from "@/shared/components/PageTitle";
+import PageTitle from "@/components/PageTitle";
 
 export default function Page() {
   return (

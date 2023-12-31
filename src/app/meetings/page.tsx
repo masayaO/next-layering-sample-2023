@@ -1,6 +1,6 @@
-import { useApiAccessMeeting } from "@/shared/hooks/apiAccess/meetings/useApiAccessMeeting";
+import { useApiAccessMeeting } from "@/apiAccess/meetings/useApiAccessMeeting";
 import MeetingListItem from "@/features/meetings/components/MeetingListItem";
-import PageTitle from "@/shared/components/PageTitle";
+import PageTitle from "@/components/PageTitle";
 
 export default async function Page() {
   const { fetchMeetingList } = useApiAccessMeeting();
